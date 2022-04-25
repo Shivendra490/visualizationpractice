@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.card-wrapper{
+    margin:5% auto;
+    width:90%;
+    /* margin:auto; */
+    /* border:1px solid green; */
+
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    min-height: 30%;
+    /* border:1px solid green; */
+    /* text-align:center; */
+    
+}
+
+.card{
+
+/* border:1px solid blue; */
+height:12em;
+background: url('../../public/map_image.jpg');
+display:grid;
+align-items: center;
+text-align:center;
+}
+
+.not-found{
+    
+    color:red;
+    text-align: center;
+    align-items: center;
+    
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.globe-bg{
+    object-fit:cover;
+    background: url('../../public/globe.jpg');
+    width:100vw;
+    /* height:60vh; */
+    /* object-fit:contain; */
+    background-size: cover;
+
+}
+
+
+.wrapper-container{
+
+    width:80%;
+    min-height:80%;
+    margin:auto auto;
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    row-gap: 0.3em;
+}
+
+
+.main-heading{
+    color:white;
+    margin-top:8%;
+    text-align: center;
+    /* border:2px solid black; */
+    font-size: xx-large;
+    letter-spacing: 0.2em;
+    font-weight:bold;
+}
+
+.static-sub-heading{
+    color:white;
+    margin-bottom: 0.2em;
+    font-weight: bolder;
+    text-align: center;
+    /* border:2px solid black; */
+    padding:10px;
+}
+
+.dynamic-sub-heading{
+    color:white;
+    /* margin:10px; */
+    text-align: center;
+    font-weight: bolder;
+    /* border:2px solid black; */
+    margin-bottom: 0.2em;
+}
+
+
+
+.button-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    /* border:2px solid white; */
+    height:2.7em;
+    gap:0.1em;
+    
+
+}
+
+.button-wrapper button{
+        /* background-color: white; */
+        padding:0.4em;
+       
+        
+}
+
+
+.search-wrapper{
+    display:flex;
+    justify-content: center;
+    /* border:1px solid black; */
+    gap:0.1em;
+    margin-bottom:5em;
+    margin-top:0.5em;
+    
+
+}
+
+.search-wrapper input{
+    width: 34em;
+    height: 3em;
+    border-radius: 1.1em;
+    border:none;
+    text-align:center;
+}
+
+.search-wrapper .search-icon{
+
+}
+
+.active{
+    background-color: green;
+}
+
+.inactive{
+    background-color: white;
+    }
+
